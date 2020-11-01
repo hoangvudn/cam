@@ -1,0 +1,179 @@
+.container-main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 7px;
+    justify-content: space-between;
+    width: 100%;
+    height: 55%;
+    /*background:red;*/
+}
+/*---------------------MAIN NAV--------------------------*/
+.container-main .container-nav {
+    display: flex;
+    width: 28.3%;
+    height: 100%;
+    background: white;
+    /*border: 1px solid blue; */
+}
+/*---------------------ARROW------------------------*/
+
+/*------------------END---ARROW------------------------*/
+.container-main .container-nav .main-nav{
+    width: 99%;
+    height: 99.5%;
+    background: white;
+   /* border: 1px solid blue;*/
+}
+.container-main .container-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    width: 99%;
+    height: 91%;
+   /* border: 1px dashed red;*/
+
+}
+.container-main .container-nav .main-nav ul li{
+   width: 100%;
+   height: 100%;
+   padding-left: 60px;
+}
+.container-main .container-nav .main-nav ul li a{
+    position: relative;
+    width: 99.9%;
+    height: 100%;
+}
+.container-main .container-nav .main-nav ul li a:hover{
+   text-decoration: none;
+}
+.container-main .container-nav .main-nav ul li a img {
+    width: 17px;
+    height: 18px;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico {
+    position: absolute;
+    left: 274px;
+    top: -2px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.4;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico:hover {
+    opacity: 2;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico img{
+    width: 100%;
+    height: 80%;
+}
+.container-main .container-nav .main-nav ul li a span {
+    padding-left: 10px;
+}
+/*-------------------END--MAIN NAV------------------------------*/
+    /*---------------------SUB NAV--------------------------*/
+
+.drop-right .sub-nav ul {
+    display: none;
+}
+.drop-right:hover .sub-nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200%;
+    height: 60vh;   
+    background:whitesmoke;
+    z-index: 99999;
+}
+.drop-right:hover .sub-nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 235px;
+    top: -38px;
+}
+.drop-right .sub-nav  {
+    position: relative;
+    display: flex;
+    /*background: green;*/
+ }
+.drop-right:hover .sub-nav .sub-nav-left {
+    display: absolute;
+    left: 50px;
+} 
+.drop-right:hover .sub-nav .sub-nav-right {
+    display: absolute;
+    left: 215px;
+}
+
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-left li {
+    position: relative;
+    left: -70px;
+    font-size: smaller;
+    width: 5000px;
+    height: 22px;
+}
+
+ .sub-nav .sub-nav-right li {
+   font-size: smaller;
+   margin-bottom: 2px;
+  
+}
+
+    /*---------------------END SUB NAV--------------------------*/
+/*----------------------IMAGE CAROUSEL--------------------------*/
+.container-main .container-img {
+    left: 20px;
+    width: 70.5%;
+    height: 100%;
+    /*background: palevioletred;
+    border: 1px solid green;*/
+}
+.container-main .container-img .container-img-carousel {
+    width: 90%;
+    height: 98%;
+}
+.container-main .container-img .container-img-carousel #carouselExampleControls .carousel-inner .carousel-item img {
+    margin-top: 2px;
+    margin-left: 7px;
+    width: 95%;
+    height: 54vh;
+}
+
+/*------------------END----IMAGE CAROUSEL--------------------------*/
+/*----------------------MAIN IMAGE-------------------------------*/
+.container-main-image {
+    position: relative;
+    padding-top: 10px;
+    left: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 81%;
+    height: 180px;
+    margin: 0 auto;
+}
+.container-main-image .main-image img {
+    border-radius: 2.5%;
+}
+
+.container-middle-image {
+    position: relative;
+    padding-top: 10px;
+    left: -5px;
+    display: flex;
+   
+    justify-content: space-between;
+    width: 81%;
+    height: 180px;
+    margin: 0 auto;
+}
+.container-middle-image .main-image1 {
+    position: relative;
+    width: 25%;
+    height: 100%;
+  
+} 
+.container-main-image .main-image span {
+    width: 25%;
+}
+/*------------------END----MAIN IMAGE---------------------------*/

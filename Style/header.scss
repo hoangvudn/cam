@@ -1,0 +1,268 @@
+@import '../Style/root.scss';
+@import '../Style/function.scss';
+
+.container-header {
+    position: relative;
+    width: 100%;
+    height: 28.5%;
+   /* border: 1PX solid red; */
+}
+
+.header-top {
+    display: flex;
+    position: fixed;
+    background: #f5eceb;
+    width: 100%;
+    height: 40px;
+    margin-top: -1px;
+    margin-left: 0px;
+    z-index: 99999;
+}
+.header-li {
+    margin-left: 20px;
+    font-size: 13px;
+    color: whitesmoke;
+    list-style-type: none;
+}
+.header-li a {
+    color: gray;
+    text-decoration: none;
+}
+.header-li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/*------------------------------Format for the Header Left---------------*/
+.header-left {
+    @include position_header(35px,9px);
+}
+.header-left li:hover a{
+    color: blue;
+}
+/*------------------------------Format for the Header Right---------------*/
+.header-right {
+    @include position_header(290px,9px);
+}
+/*-------------------------------------End Header Top--------------------------*/
+/*------------------------------Format for the Header Middle-------------------*/
+.header-middle {
+    position: relative;
+    display: flex;
+    top: 39px;
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.header-middle-left {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0px;
+    width: 60%;
+    height: 80px;
+}
+.header-middle-left-bblogo {
+    position: relative;
+    top: 30px;
+    left: 55px;
+    width: 15%;
+    height: 35px;
+   
+}
+.header-middle-left-bblogo a img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header-middle-left-search {
+   position: relative;
+   top: 20px;
+   left: 5%;
+   width: 63%;
+   height: 40px;
+}
+.header-middle-left-search .search-input  input {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    background: white;
+    border: 1px solid orange;
+    border-radius: 15px;
+    outline: none;
+    z-index: 1;
+}
+.header-middle-left-search .search-icon img{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 5%;
+    height: 23px;
+    z-index: 1;
+}
+
+/*---------------------------End---Format for the Header Middle---Left------------*/
+/*------------------------------Format for the Header Middle---Right----------------*/
+.header-middle-right {
+    position: relative;
+    width: 40%;
+    height: 80px;
+}
+.right-phonelogo {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+.right-hotline {
+    margin-left: 40px;
+}
+.header-middle-right .right-phonelogo img {
+    position: absolute;
+    top: 20px;
+    width: 30%;
+    height: 60%;
+}
+.header-middle-right .right-hotline p:first-child {
+    color: orange;
+    font-weight: 600;
+}
+.header-middle-right .right-hotline p:last-child {
+    position: absolute;
+    top: 16px;
+}
+.right-buy {
+    display: flex;
+    position: absolute;
+    right: 200px;
+}
+.header-middle-right .right-buy img {
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    width: 45%;
+    height: 60%;
+}
+.header-middle-right .right-buy .cat p {
+    position: relative;
+    top: 20px;
+    left: 28px;
+}
+/*---------------------------End---Format for the Header Middle---Right------------*/
+/*----------------------------Format for the Header Bottom--------------*/
+.header-bottom {
+    position: relative;
+    display: flex;
+    top: 39px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 5px 2px 2px #888888;
+}
+/*----------------------------Format for the Header Bottom-Left-------------*/
+.header-bottom .header-bottom-title_menu {
+    position: absolute;
+    display: flex;
+    left: 95px;
+    top: 0px;
+    width: 21.3%;
+    height: 100%;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.header-bottom .header-bottom-title_menu a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.header-bottom .header-bottom-title_menu a img {
+    position: absolute;
+    top: 0px;
+    width: 13%;
+    height: 50px;
+}
+.header-bottom .header-bottom-title_menu a span {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+
+}
+/*-------------------------End---Format for the Header Bottom--Left------------*/
+/*----------------------------Format for the Header Bottom-Right---------------*/
+.header-bottom .header-bottom-title_icon {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: space-between;
+    width: 70%;
+    right:0px;
+    height: 100%;
+    background: white;
+
+}
+
+/*----------------------------Format for --Bottom-title_icon_saleoff-----------*/
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff {
+    @include bottom_titleico(0,32%,100%);
+
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a{
+    @include bottom_titleico_a(flex,wrap,space-between,50%,100%);
+   
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a img{
+    @include bottom_titleico_img_span(0,15%,10px,50%);
+ 
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a span{
+    @include bottom_titleico_img_span(0,75%,13px,50%);
+  
+}
+/*-------------------------End---Format for --Bottom-title_icon_saleoff-----------*/
+
+/*----------------------------Format for --Bottom-title_icon_plasticbook-----------*/
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook {
+    @include bottom_titleico(0,32%,100%);
+   
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a{
+    @include bottom_titleico_a(flex,wrap,space-between,50%,100%);
+ 
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a img{
+    @include bottom_titleico_img_span(0,15%,10px,50%);
+   
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a span{
+    @include bottom_titleico_img_span(0,75%,13px,50%);
+  
+}
+/*----------------------------End for --Bottom-title_icon_plasticbook-----------*/
+/*----------------------------Format for --Bottom-title_icon_plasticbook-----------*/
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount {
+    @include bottom_titleico(0,32%,100%);
+
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a{
+    @include bottom_titleico_a(flex,wrap,space-between,50%,100%);
+   
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a img{
+    @include bottom_titleico_img_span(0,15%,10px,50%);
+    
+}
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a span{
+    @include bottom_titleico_img_span(0,75%,13px,50%);
+  
+}
+/*-------------------------End---Format for the Header Bottom--Right------------*/
+
+/*-------------------------End---Format for the Header Bottom-------------------*/

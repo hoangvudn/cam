@@ -1,0 +1,23 @@
+@mixin position_header($mg_l,$mg_t) {
+    display: flex;
+    margin-left: $mg_l;
+    margin-top: $mg_t;
+}
+/*---------------MENU BOTTOM-----------------------*/
+@mixin bottom_titleico($fl_grow,$fl_basis,$h){
+    flex: $fl_grow $fl_basis ;
+    height: $h;
+}
+@mixin bottom_titleico_a($fl,$fl_wrap,$jcontent,$w,$h){
+    display: $fl;
+    flex-wrap: $fl_wrap;
+    justify-content: $jcontent;
+    width: $w;
+    height: $h;
+}
+@mixin bottom_titleico_img_span($fl_grow,$fl_basis,$m_top,$h){
+    flex: $fl_grow $fl_basis;
+    margin-top: $m_top;
+    height: $h;
+}
+/*----------------END MENU BOTTOM----------------------*/

@@ -1,0 +1,716 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 1px solid purple; */
+}
+
+* a {
+  text-decoration: none;
+  color: grey;
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+* a span {
+  color: grey;
+}
+
+* ul {
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 1px solid purple; */
+}
+
+* a {
+  text-decoration: none;
+  color: grey;
+}
+
+* a:hover {
+  text-decoration: none;
+}
+
+* a span {
+  color: grey;
+}
+
+* ul {
+  list-style-type: none;
+}
+
+/*---------------MENU BOTTOM-----------------------*/
+/*----------------END MENU BOTTOM----------------------*/
+.container-header {
+  position: relative;
+  width: 100%;
+  height: 28.5%;
+  /* border: 1PX solid red; */
+}
+
+.header-top {
+  display: flex;
+  position: fixed;
+  background: #f5eceb;
+  width: 100%;
+  height: 40px;
+  margin-top: -1px;
+  margin-left: 0px;
+  z-index: 99999;
+}
+
+.header-li {
+  margin-left: 20px;
+  font-size: 13px;
+  color: whitesmoke;
+  list-style-type: none;
+}
+
+.header-li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.header-li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/*------------------------------Format for the Header Left---------------*/
+.header-left {
+  display: flex;
+  margin-left: 35px;
+  margin-top: 9px;
+}
+
+.header-left li:hover a {
+  color: blue;
+}
+
+/*------------------------------Format for the Header Right---------------*/
+.header-right {
+  display: flex;
+  margin-left: 290px;
+  margin-top: 9px;
+}
+
+/*-------------------------------------End Header Top--------------------------*/
+/*------------------------------Format for the Header Middle-------------------*/
+.header-middle {
+  position: relative;
+  display: flex;
+  top: 39px;
+  width: 100%;
+  height: 80px;
+  background-color: whitesmoke;
+}
+
+.header-middle-left {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0px;
+  width: 60%;
+  height: 80px;
+}
+
+.header-middle-left-bblogo {
+  position: relative;
+  top: 30px;
+  left: 55px;
+  width: 15%;
+  height: 35px;
+}
+
+.header-middle-left-bblogo a img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.header-middle-left-search {
+  position: relative;
+  top: 20px;
+  left: 5%;
+  width: 63%;
+  height: 40px;
+}
+
+.header-middle-left-search .search-input input {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  background: white;
+  border: 1px solid orange;
+  border-radius: 15px;
+  outline: none;
+  z-index: 1;
+}
+
+.header-middle-left-search .search-icon img {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 5%;
+  height: 23px;
+  z-index: 1;
+}
+
+/*---------------------------End---Format for the Header Middle---Left------------*/
+/*------------------------------Format for the Header Middle---Right----------------*/
+.header-middle-right {
+  position: relative;
+  width: 40%;
+  height: 80px;
+}
+
+.right-phonelogo {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+.right-hotline {
+  margin-left: 40px;
+}
+
+.header-middle-right .right-phonelogo img {
+  position: absolute;
+  top: 20px;
+  width: 30%;
+  height: 60%;
+}
+
+.header-middle-right .right-hotline p:first-child {
+  color: orange;
+  font-weight: 600;
+}
+
+.header-middle-right .right-hotline p:last-child {
+  position: absolute;
+  top: 16px;
+}
+
+.right-buy {
+  display: flex;
+  position: absolute;
+  right: 200px;
+}
+
+.header-middle-right .right-buy img {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  width: 45%;
+  height: 60%;
+}
+
+.header-middle-right .right-buy .cat p {
+  position: relative;
+  top: 20px;
+  left: 28px;
+}
+
+/*---------------------------End---Format for the Header Middle---Right------------*/
+/*----------------------------Format for the Header Bottom--------------*/
+.header-bottom {
+  position: relative;
+  display: flex;
+  top: 39px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 5px 2px 2px #888888;
+}
+
+/*----------------------------Format for the Header Bottom-Left-------------*/
+.header-bottom .header-bottom-title_menu {
+  position: absolute;
+  display: flex;
+  left: 95px;
+  top: 0px;
+  width: 21.3%;
+  height: 100%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.header-bottom .header-bottom-title_menu a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_menu a img {
+  position: absolute;
+  top: 0px;
+  width: 13%;
+  height: 50px;
+}
+
+.header-bottom .header-bottom-title_menu a span {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+}
+
+/*-------------------------End---Format for the Header Bottom--Left------------*/
+/*----------------------------Format for the Header Bottom-Right---------------*/
+.header-bottom .header-bottom-title_icon {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  right: 0px;
+  height: 100%;
+  background: white;
+}
+
+/*----------------------------Format for --Bottom-title_icon_saleoff-----------*/
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff {
+  flex: 0 32%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a img {
+  flex: 0 15%;
+  margin-top: 10px;
+  height: 50%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_saleoff a span {
+  flex: 0 75%;
+  margin-top: 13px;
+  height: 50%;
+}
+
+/*-------------------------End---Format for --Bottom-title_icon_saleoff-----------*/
+/*----------------------------Format for --Bottom-title_icon_plasticbook-----------*/
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook {
+  flex: 0 32%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a img {
+  flex: 0 15%;
+  margin-top: 10px;
+  height: 50%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_plasticbook a span {
+  flex: 0 75%;
+  margin-top: 13px;
+  height: 50%;
+}
+
+/*----------------------------End for --Bottom-title_icon_plasticbook-----------*/
+/*----------------------------Format for --Bottom-title_icon_plasticbook-----------*/
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount {
+  flex: 0 32%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a img {
+  flex: 0 15%;
+  margin-top: 10px;
+  height: 50%;
+}
+
+.header-bottom .header-bottom-title_icon .bottom-title_icon_discount a span {
+  flex: 0 75%;
+  margin-top: 13px;
+  height: 50%;
+}
+
+/*-------------------------End---Format for the Header Bottom--Right------------*/
+/*-------------------------End---Format for the Header Bottom-------------------*/
+.container-main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 7px;
+  justify-content: space-between;
+  width: 100%;
+  height: 55%;
+  /*background:red;*/
+}
+
+/*---------------------MAIN NAV--------------------------*/
+.container-main .container-nav {
+  display: flex;
+  width: 28.3%;
+  height: 100%;
+  background: white;
+  /*border: 1px solid blue; */
+}
+
+/*---------------------ARROW------------------------*/
+/*------------------END---ARROW------------------------*/
+.container-main .container-nav .main-nav {
+  width: 99%;
+  height: 99.5%;
+  background: white;
+  /* border: 1px solid blue;*/
+}
+
+.container-main .container-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  width: 99%;
+  height: 91%;
+  /* border: 1px dashed red;*/
+}
+
+.container-main .container-nav .main-nav ul li {
+  width: 100%;
+  height: 100%;
+  padding-left: 60px;
+}
+
+.container-main .container-nav .main-nav ul li a {
+  position: relative;
+  width: 99.9%;
+  height: 100%;
+}
+
+.container-main .container-nav .main-nav ul li a:hover {
+  text-decoration: none;
+}
+
+.container-main .container-nav .main-nav ul li a img {
+  width: 17px;
+  height: 18px;
+}
+
+.container-main .container-nav .main-nav ul li a .arrow-ico {
+  position: absolute;
+  left: 274px;
+  top: -2px;
+  width: 10px;
+  height: 10px;
+  opacity: 0.4;
+}
+
+.container-main .container-nav .main-nav ul li a .arrow-ico:hover {
+  opacity: 2;
+}
+
+.container-main .container-nav .main-nav ul li a .arrow-ico img {
+  width: 100%;
+  height: 80%;
+}
+
+.container-main .container-nav .main-nav ul li a span {
+  padding-left: 10px;
+}
+
+/*-------------------END--MAIN NAV------------------------------*/
+/*---------------------SUB NAV--------------------------*/
+.drop-right .sub-nav ul {
+  display: none;
+}
+
+.drop-right:hover .sub-nav ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200%;
+  height: 60vh;
+  background: whitesmoke;
+  z-index: 99999;
+}
+
+.drop-right:hover .sub-nav {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 235px;
+  top: -38px;
+}
+
+.drop-right .sub-nav {
+  position: relative;
+  display: flex;
+  /*background: green;*/
+}
+
+.drop-right:hover .sub-nav .sub-nav-left {
+  display: absolute;
+  left: 50px;
+}
+
+.drop-right:hover .sub-nav .sub-nav-right {
+  display: absolute;
+  left: 215px;
+}
+
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-left li {
+  position: relative;
+  left: -70px;
+  font-size: smaller;
+  width: 5000px;
+  height: 22px;
+}
+
+.sub-nav .sub-nav-right li {
+  font-size: smaller;
+  margin-bottom: 2px;
+}
+
+/*---------------------END SUB NAV--------------------------*/
+/*----------------------IMAGE CAROUSEL--------------------------*/
+.container-main .container-img {
+  left: 20px;
+  width: 70.5%;
+  height: 100%;
+  /*background: palevioletred;
+  border: 1px solid green;*/
+}
+
+.container-main .container-img .container-img-carousel {
+  width: 90%;
+  height: 98%;
+}
+
+.container-main .container-img .container-img-carousel #carouselExampleControls .carousel-inner .carousel-item img {
+  margin-top: 2px;
+  margin-left: 7px;
+  width: 95%;
+  height: 54vh;
+}
+
+/*------------------END----IMAGE CAROUSEL--------------------------*/
+/*----------------------MAIN IMAGE-------------------------------*/
+.container-main-image {
+  position: relative;
+  padding-top: 10px;
+  left: -5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 81%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.container-main-image .main-image img {
+  border-radius: 2.5%;
+}
+
+.container-middle-image {
+  position: relative;
+  padding-top: 10px;
+  left: -5px;
+  display: flex;
+  justify-content: space-between;
+  width: 81%;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.container-middle-image .main-image1 {
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+
+.container-main-image .main-image span {
+  width: 25%;
+}
+
+/*------------------END----MAIN IMAGE---------------------------*/
+/*----------------------------Responsive-------------------------------*/
+/*----------------------------Responsive 1125px-------------------------------*/
+@media only screen and (max-width: 1125px) {
+  .header-left {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1091 px-------------------------------*/
+@media only screen and (max-width: 1091px) {
+  .header-left {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 180px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1065 px-------------------------------*/
+@media only screen and (max-width: 1065px) {
+  .header-left {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1041 px-------------------------------*/
+@media only screen and (max-width: 1041px) {
+  .header-left {
+    display: flex;
+    margin-left: 7px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1026 px-------------------------------*/
+@media only screen and (max-width: 1026px) {
+  .header-left {
+    display: flex;
+    margin-left: 7px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 140px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1015 px-------------------------------*/
+@media only screen and (max-width: 1026px) {
+  .header-left {
+    display: flex;
+    margin-left: 7px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 1015 px-------------------------------*/
+@media only screen and (max-width: 995px) {
+  .header-left {
+    display: flex;
+    margin-left: 7px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 110px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------Responsive 986 px-------------------------------*/
+@media only screen and (max-width: 995px) {
+  .header-left {
+    display: flex;
+    margin-left: 3px;
+    margin-top: 9px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 9px;
+  }
+}
+/*----------------------------End Responsive-------------------------------*/
+/*----------------------------Responsive 932 px-------------------------------*/
+@media only screen and (max-width: 932px) {
+  .header-left {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 7px;
+  }
+
+  .header-right {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 6px;
+  }
+}
+/*----------------------------End Responsive-------------------------------*/
+/*---------------MENU BOTTOM-----------------------*/
+/*----------------END MENU BOTTOM----------------------*/
+
+/*# sourceMappingURL=index.css.map */
